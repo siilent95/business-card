@@ -1,4 +1,4 @@
-# Businnes Card with React
+# Business Card with React
 
 This is a simple solo project (challenge) created with React for the "Learn React for free" scrimba course.
 
