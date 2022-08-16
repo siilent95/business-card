@@ -1,0 +1,140 @@
+body {
+  display: flex;
+  margin: 44px 117px;
+  font-family: Inter, 'Roboto';
+  background-color: #23252C;
+  justify-content: center;
+
+}
+
+.card {
+  background-color: #1A1B21;
+  border-radius: 10px;
+  max-width: 317px;
+  min-width: 317px;
+}
+
+/* Componente info */
+.info {
+  text-align: center;
+}
+
+.info--photo {
+  width: 317px;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.info--name_title {
+  color: white;
+  font-size: 25px;
+  margin-top: 35px;
+  line-height: 20.49px;
+}
+
+.info--career {
+  color: #F3BF99;
+  font-size: 12.8px;
+  font-weight: 400;
+  line-height: 2.49px;
+}
+
+.info--website {
+  color: #F5F5F5;
+  font-size: 10.24px;
+  font-weight: 400;
+  line-height: 24.49px;
+
+}
+
+.buttons {
+  display: flex;
+  justify-content: center; 
+  padding-left: 5%;
+
+}
+.buttons--email {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 17px;
+  padding: 9px 13px 9px 11px;
+  gap: 8px;
+  border-radius: 6px;
+  border-style: none;
+  font-family: 'Inter';
+  font-size: 14px;
+  font-weight: 500;
+  width: 115px;
+  height: 34px;
+}
+
+.buttons--email:hover {
+  background: rgb(174, 174, 174);
+  transition-duration: 300ms;
+}
+
+.buttons--link {
+  text-decoration: none;
+}
+
+.buttons--linked {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 17px;
+  padding: 9px 13px 9px 11px;
+  gap: 8px;
+  border-radius: 6px;
+  border-style: none;
+  font-family: 'Inter';
+  font-size: 14px;
+  font-weight: 500;
+  background: #5093E2;
+  color: white;
+  width: 115px;
+  height: 34px;
+}
+
+.buttons--linked:hover {
+  background: #346195;
+  transition-duration: 300ms;
+}
+
+
+/* Componente About */
+.about {
+  padding: 22px 36px 0px 36px;
+  color: white;
+}
+
+.about--text {
+  margin-top: -10px;
+  font-size: 10.24px;
+  font-weight: 400;
+  line-height: 17.36px;
+  color: #DCDCDC;
+}
+
+/* Componente Interests */
+.interests {
+  padding: 0px 36px 32px 36px;
+  color: white;
+}
+
+.interests--text {
+  margin-top: -10px;
+  font-size: 10.24px;
+  font-weight: 400;
+  line-height: 17.36px;
+  color: #DCDCDC;
+}
+
+/* Componente Footer */
+.footer {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  background-color: #161619;
+  padding: 20px 73px;
+  border-radius: 0px 0px 10px 10px;
+}
